@@ -24,4 +24,4 @@ Los audios de los podcasts han sido editados y mejorados utilizando **Audacity**
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/Albebu/podcast.git
+   git clone https://github.com/Ponguitaa/PodscastSimbelonga
