@@ -1,54 +1,27 @@
-# React + TypeScript + Vite
+# Proyecto Podcast
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto para la gestión y distribución de podcasts. Los audios de los podcasts han sido grabados y editados utilizando **Audacity**, una herramienta de edición de audio de código abierto.
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este repositorio contiene la estructura de un proyecto web para gestionar y reproducir podcasts. Utiliza tecnologías modernas como:
 
-## Expanding the ESLint configuration
+- **Node.js** para el backend.
+- **Vite** como bundler de aplicaciones web.
+- **TypeScript** para el desarrollo seguro y escalable.
+  
+Los audios de los podcasts han sido editados y mejorados utilizando **Audacity**, lo que garantiza una alta calidad en el contenido sonoro.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Tecnologías usadas
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **Node.js**: Entorno de ejecución de JavaScript.
+- **Vite**: Herramienta de construcción rápida para aplicaciones modernas.
+- **TypeScript**: Superset de JavaScript que ofrece tipado estático.
+- **Audacity**: Software de edición de audio utilizado para la edición de los podcasts.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Instalación
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1. Clona el repositorio:
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+   ```bash
+   git clone https://github.com/Albebu/podcast.git
