@@ -19,6 +19,14 @@ Los audios de los podcasts han sido editados y mejorados utilizando **Audacity**
 - **TypeScript**: Superset de JavaScript que ofrece tipado estático.
 - **Audacity**: Software de edición de audio utilizado para la edición de los podcasts.
 
+## Licencias
+- Contenido de los audios: - Audio grabado por Sergi Ponga y Alex bellosta (CC0)
+                           - Música de fondo (Attribution (BY)): https://www.youtube.com/watch?v=6j0PA_iNYQQ&list=PLSkabdIyCLRyo6GP6YisqUPz4MuIgXUxw&ab_channel=SnailMusic
+                           - Sonido ambiental (Attribution (BY)): https://pixabay.com/es/sound-effects/search/selva/ 
+-Contenido visual: - Videos recreados por Sora (Inteligencia Artificial) https://openai.com/sora/
+
+-Logo: - Recreado por ChatGPT https://chatgpt.com/?model=gpt-4o
+
 ## Instalación
 
 1. Clona el repositorio:
